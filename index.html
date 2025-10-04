@@ -8,39 +8,50 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-
   <!-- ================= HEADER ================= -->
   <header class="header">
-  <!-- Logo -->
-  <div class="logo">
-    <img src="assets/images/logo.svg" alt="Crimson Education Logo" />
-    <div>
-      <!-- Navigation -->
-  <nav class="nav">
-    <ul>
-       <li><a href="index.html">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact Us</a></li>
-    </ul>
-  </nav>
+    <!-- Logo -->
+    <div class="logo">
+      <img src="assets/images/logo.svg" alt="Crimson Education Logo" />
     </div>
-  </div>
+   <!-- Navigation -->
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      
+      </ul>
+    </nav>
+    <div class="apply">
+       <nav class="destop">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      
+      </ul>
+    </nav>
 
-  
+      <a href="#apply" class="btn apply-btn apl">Apply Online</a>
+    </div>
 
-  <!-- Apply Online Button -->
-   <div class="apply">
-  <a href="#apply" class="btn apply-btn">Apply Online</a>
-  </div>
-</header>
+    <!-- Hamburger Icon -->
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
 
 
   <!-- ================= HERO SECTION ================= -->
   <section class="hero">
     <h1>Your Dream University Won't Chase You—But We’ll Show You How to Catch It!</h1>
     <p>Build Your Strategy. Stand Out. Get In.</p>
-    <button class="btn" onclick="bookConsultation()">Book an initial consultation</button>
+    <button class="btn apply-btn" onclick="bookConsultation()">Book an initial consultation</button>
   </section>
 
   <!-- ================= CONTENT SECTION ================= -->
@@ -60,7 +71,7 @@
         At Crimson, we help you turn potential into a powerful admissions game plan.
         Your journey starts with a <strong>free initial consultation</strong> — a 1:1 session that could change everything.
       </p>
-      <button class="btn">Take your first step !</button>
+      <button class="btn apply-btn">Take your first step !</button>
     </div>
 
     <div class="content-image">
@@ -95,7 +106,7 @@
           <p>+ Ambitious students ready to <span class="highlight">stand out</span> beyond grades and test scores</p>
         </div>
 
-        <a href="#" class="start-btn">Start today !</a>
+        <a href="#" class="btn apply-btn">Start today !</a>
       </div>
     </div>
   </section>
@@ -158,85 +169,162 @@
 
   <!-- ================= FORM SECTION ================= -->
   <section class="form-container">
-    <h1>Get Your Personalized Admissions<br />Strategy – Book a Free Consultation!</h1>
-    <p>Make sure to fill all the information correct.</p>
+  <h1>Get Your Personalized Admissions<br />Strategy – Book a Free Consultation!</h1>
+  <p>Make sure to fill all the information correct.</p>
 
-    <!-- Toggle Buttons -->
-    <div class="btn-group">
-      <button type="button" class="active">Student</button>
-      <button type="button">Guardian</button>
+  <!-- Toggle Buttons -->
+  <div class="btn-group">
+    <button type="button" class="active">Student</button>
+    <button type="button">Guardian</button>
+  </div>
+
+  <!-- Form Start -->
+  <form>
+    <div class="form-group">
+      <label>First Name</label>
+      <input type="text" placeholder="Enter your first name" />
     </div>
 
-    <!-- Form Start -->
-    <form>
-      <div class="form-group">
-        <label>First Name</label>
-        <input type="text" placeholder="Enter your first name" />
-      </div>
+    <div class="form-group">
+      <label>Last Name</label>
+      <input type="text" placeholder="Enter your last name" />
+    </div>
 
-      <div class="form-group">
-        <label>Last Name</label>
-        <input type="text" placeholder="Enter your last name" />
-      </div>
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" placeholder="Enter your email" />
+    </div>
 
-      <div class="form-group">
-        <label>Email</label>
-        <input type="email" placeholder="Enter your email" />
-      </div>
-
-      <div class="form-group">
-        <label>What is your phone number?</label>
-        <div class="phone-group">
-          <select>
-            <option>select..</option>
-          </select>
-          <input type="text" placeholder="01234567" />
-        </div>
-      </div>
-
-      <div class="form-group">
-        <label>What country do you live in?</label>
+    <div class="form-group">
+      <label>What is your phone number?</label>
+      <div class="phone-group">
         <select>
-          <option>Pakistan</option>
-          <option>India</option>
-          <option>USA</option>
-          <option>UK</option>
+          <option>Select..</option>
+          <option value="+92">+92 (Pakistan)</option>
+          <option value="+91">+91 (India)</option>
+          <option value="+1">+1 (USA)</option>
+          <option value="+44">+44 (UK)</option>
+          <option value="+61">+61 (Australia)</option>
+          <option value="+81">+81 (Japan)</option>
+          <option value="+49">+49 (Germany)</option>
+          <option value="+33">+33 (France)</option>
+          <option value="+971">+971 (UAE)</option>
+          <option value="+966">+966 (Saudi Arabia)</option>
+          <!-- ... add up to 100+ codes -->
         </select>
+        <input type="text" placeholder="01234567" />
       </div>
+    </div>
 
-      <div class="form-group">
-        <label>School Name</label>
-        <select>
-          <option>Write your full school name, if you can’t find it click ‘enter’</option>
-        </select>
-      </div>
+    <div class="form-group">
+      <label>What country do you live in?</label>
+      <select>
+        <option>Select country...</option>
+        <option>Pakistan</option>
+        <option>India</option>
+        <option>USA</option>
+        <option>UK</option>
+        <option>Canada</option>
+        <option>Australia</option>
+        <option>Germany</option>
+        <option>France</option>
+        <option>China</option>
+        <option>Japan</option>
+        <option>Brazil</option>
+        <option>South Africa</option>
+        <option>Saudi Arabia</option>
+        <option>UAE</option>
+        <option>Singapore</option>
+        <!-- ... add 100+ countries -->
+      </select>
+    </div>
 
-      <div class="form-group">
-        <label>What year did/will you graduate from high school?</label>
-        <select>
-          <option>High school graduation year</option>
-        </select>
-      </div>
+    <div class="form-group">
+      <label>School Name</label>
+      <select>
+        <option>Write your full school name, if you can’t find it click ‘enter’</option>
+        <option>Springfield High School</option>
+        <option>Green Valley Academy</option>
+        <option>Oxford International School</option>
+        <option>Bright Future High</option>
+        <option>Maple Leaf Grammar School</option>
+        <option>Blue Ridge Academy</option>
+        <option>Cambridge Modern School</option>
+        <option>Riverdale High</option>
+        <option>Beaconhouse School</option>
+        <option>Roots International</option>
+        <option>City Public School</option>
+        <option>St. Mary’s Convent</option>
+        <option>Global Knowledge Academy</option>
+        <option>Sunrise Grammar School</option>
+        <option>Royal Crescent Academy</option>
+        <!-- ... add 100+ random school names -->
+      </select>
+    </div>
 
-      <div class="form-group">
-        <label>What courses are you interested in?</label>
-        <select>
-          <option>Select courses interested in</option>
-        </select>
-      </div>
+    <div class="form-group">
+      <label>What year did/will you graduate from high school?</label>
+      <select>
+        <option>High school graduation year</option>
+        <!-- 1980 to 2035 -->
+        <option>1980</option>
+        <option>1981</option>
+        <option>1982</option>
+        <!-- ... -->
+        <option>2024</option>
+        <option>2025</option>
+        <option>2026</option>
+        <!-- ... -->
+        <option>2035</option>
+      </select>
+    </div>
 
-      <!-- Checkboxes -->
-      <div class="form-check">
-        <input type="checkbox" /> I want to receive study pathways, free resources and admissions guidance from Crimson Education Group.
-      </div>
+    <div class="form-group">
+      <label>What courses are you interested in?</label>
+      <select>
+        <option>Select courses interested in</option>
+        <option>Computer Science</option>
+        <option>Software Engineering</option>
+        <option>Data Science</option>
+        <option>Artificial Intelligence</option>
+        <option>Cybersecurity</option>
+        <option>Business Administration</option>
+        <option>Finance & Accounting</option>
+        <option>Marketing</option>
+        <option>Psychology</option>
+        <option>Medicine</option>
+        <option>Nursing</option>
+        <option>Law</option>
+        <option>Architecture</option>
+        <option>Mechanical Engineering</option>
+        <option>Electrical Engineering</option>
+        <option>Civil Engineering</option>
+        <option>Graphic Design</option>
+        <option>Game Development</option>
+        <option>Philosophy</option>
+        <option>Political Science</option>
+        <option>Economics</option>
+        <option>Biotechnology</option>
+        <option>International Relations</option>
+        <!-- ... add 100+ fields -->
+      </select>
+    </div>
 
-      <div class="form-check">
-        <input type="checkbox" /> I agree to the <a href="#">privacy policy</a>
-      </div>
+    <!-- Checkboxes -->
+    <div class="form-check">
+      <input type="checkbox" /> I want to receive study pathways, free resources and admissions guidance from Crimson Education Group.
+    </div>
 
-      <button type="submit" class="submit-btn">Submit</button>
-    </form>
-  </section>
+    <div class="form-check">
+      <input type="checkbox" /> I agree to the <a href="#">privacy policy</a>
+    </div>
+
+    <button type="submit" class="submit-btn">Submit</button>
+  </form>
+</section>
+
+
+
 
   <!-- ================= FOOTER ================= -->
   <footer class="footer">
