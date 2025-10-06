@@ -12,16 +12,24 @@
   <header class="header">
     <!-- Logo -->
     <div class="logo">
-      <img src="assets/images/logo.svg" alt="Crimson Education Logo" />
+      <a href="index.html"><img src="assets/images/logo.svg" alt="Crimson Education Logo" /></a>
     </div>
    <!-- Navigation -->
     <nav class="nav">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="#services">Services</a></li>
+        <li class="dropdown">
+          <a href="#services">Services</a>
+          <ul class="dropdown-menu">
+            <li><a href="study-abroad.html">Study Abroad</a></li>
+            <li><a href="for-students.html">For Students</a></li>
+            <li><a href="for-institutes.html">For Institutes</a></li>
+            <li><a href="for-government.html">For Government</a></li>
+          </ul>
+        </li>
         <li><a href="contact-us.html">Contact Us</a></li>
-      
+
       </ul>
     </nav>
     <div class="apply">
@@ -29,9 +37,17 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="#services">Services</a></li>
+        <li class="dropdown">
+          <a href="#services">Services</a>
+          <ul class="dropdown-menu">
+            <li><a href="study-abroad.html">Study Abroad</a></li>
+            <li><a href="for-students.html">For Students</a></li>
+            <li><a href="for-institutes.html">For Institutes</a></li>
+            <li><a href="for-government.html">For Government</a></li>
+          </ul>
+        </li>
         <li><a href="contact-us.html">Contact Us</a></li>
-      
+
       </ul>
     </nav>
 
@@ -48,7 +64,7 @@
 
 <body>
  <!-- ================= HERO SECTION ================= -->
-  <section class="about-banner">
+  <section class="about-banner fade-in">
     <div class="overlay"></div>
     <div class="about-content">
       <div class="breadcrumb">
@@ -58,34 +74,34 @@
     </div>
   </section>
  <!-- ================= OUR MISSION SECTION ================= -->
- <section class="mission">
+ <section class="mission fade-in">
     <h2>Our Mission</h2>
     <div class="mission-content">
       <!-- Left Text -->
-      <div class="mission-text">
+      <div class="mission-text slide-left">
         <h3>Educating the world to make a Difference</h3>
         <p>
-          Sahara is a professional recruiting and training company providing students and parents 
-          with current information about studies offered globally. Sahara Services offer information 
-          about the selected destination, the universities, programs, admissions, accommodations 
-          and student Visas. Sahara was established by Dr Mikey the Chairman of this company, the 
+          Sahara is a professional recruiting and training company providing students and parents
+          with current information about studies offered globally. Sahara Services offer information
+          about the selected destination, the universities, programs, admissions, accommodations
+          and student Visas. Sahara was established by Dr Mikey the Chairman of this company, the
           chairman is highly qualified from the UK and held Doctor of Philosophy (PhD)...
         </p>
         <p>
-          Our Head Office is in Bournemouth, UK and maintains excellent contact with the Admissions 
+          Our Head Office is in Bournemouth, UK and maintains excellent contact with the Admissions
           and Academic sectors of the institutions we represent...
         </p>
 
         <!-- Stats -->
         <div class="mission-stats">
-          <div class="stat">
+          <div class="stat hover-lift">
             <i class="fa fa-user"></i>
             <div>
               <strong>80,123</strong>
               Students to date
             </div>
           </div>
-          <div class="stat">
+          <div class="stat hover-lift">
             <i class="fa fa-home"></i>
             <div>
               <strong>300+</strong>
@@ -96,7 +112,7 @@
       </div>
 
       <!-- Right Image -->
-      <div class="mission-img">
+      <div class="mission-img slide-right">
         <img src="./assets/images/bg-images/about.jpg" alt="Students" />
         <div class="play-btn">
           <i class="fa fa-play"></i>
@@ -106,11 +122,11 @@
   </section>
 
 
-   <!-- ===== Sahara About Section Start ===== -->
-<section class="sahara-about">
+<!-- ===== Sahara About Section Start ===== -->
+<section class="sahara-about fade-in">
 <div class="sahara-container">
 <!-- Left Card: Who We Are & Why Sahara -->
-<div class="sahara-card">
+<div class="sahara-card card-hover">
 <h2 class="sahara-title">WHO WE ARE</h2>
 <p class="sahara-text">
 Sahara is an international student recruitment agency for education and
@@ -143,7 +159,7 @@ information on how you can register with us go to apply now.
 
 
 <!-- Right Card: Chairman's Message -->
-<div class="sahara-card">
+<div class="sahara-card card-hover">
 <h2 class="sahara-title">Chairman’s Message</h2>
 <p class="sahara-text">
 Over years Sahara Student Services has been a leading international
@@ -173,7 +189,7 @@ Mobile, SIM Card and Internet.
 <!-- ===== Sahara About Section End ===== -->
 
 <!-- ===== Sahara Why Choose Us Section Start ===== -->
-<section class="sahara-choose">
+<section class="sahara-choose fade-in">
 <div class="sahara-choose-container">
 <div class="sahara-choose-header">
 <h2 class="sahara-choose-title c-title">Why Choose Us</h2>
@@ -183,38 +199,38 @@ We provide full service at every step.
 </div>
 <div class="sahara-choose-grid">
 <!-- Single Service Card -->
-<div class="sahara-choose-card">
-<div class="sahara-choose-icon">
+<div class="sahara-choose-card card-hover">
+<div class="sahara-choose-icon icon-bounce">
 <img src="assets/images/icons/adavice.png" alt="Advice Icon" />
 </div>
 <h3 class="sahara-choose-card-title">ADVICE AND COUNSELLING</h3>
 </div>
-<div class="sahara-choose-card">
-<div class="sahara-choose-icon">
+<div class="sahara-choose-card card-hover">
+<div class="sahara-choose-icon icon-bounce">
 <img src="assets/images/icons/studay.png" alt="Study Icon" />
 </div>
 <h3 class="sahara-choose-card-title">STUDY RECRUITMENT SERVICES</h3>
 </div>
-<div class="sahara-choose-card">
-<div class="sahara-choose-icon">
+<div class="sahara-choose-card card-hover">
+<div class="sahara-choose-icon icon-bounce">
 <img src="assets/images/icons/ACCOMMODATION.png" alt="Accommodation Icon" />
 </div>
 <h3 class="sahara-choose-card-title">ACCOMMODATION SERVICES</h3>
 </div>
-<div class="sahara-choose-card">
-<div class="sahara-choose-icon">
+<div class="sahara-choose-card card-hover">
+<div class="sahara-choose-icon icon-bounce">
 <img src="assets/images/icons/LANGUAGE.png" alt="Language Icon" />
 </div>
 <h3 class="sahara-choose-card-title">LANGUAGE/PATHWAY PROGRAMS</h3>
 </div>
-<div class="sahara-choose-card">
-<div class="sahara-choose-icon">
+<div class="sahara-choose-card card-hover">
+<div class="sahara-choose-icon icon-bounce">
 <img src="assets/images/icons/VISA.png" alt="Visa Icon" />
 </div>
 <h3 class="sahara-choose-card-title">VISA & MIGRATION SERVICES</h3>
 </div>
-<div class="sahara-choose-card">
-<div class="sahara-choose-icon">
+<div class="sahara-choose-card card-hover">
+<div class="sahara-choose-icon icon-bounce">
 <img src="assets/images/icons/TRAVEL.png" alt="Travel Icon" />
 </div>
 <h3 class="sahara-choose-card-title">TRAVEL SERVICES</h3>
