@@ -1,22 +1,16 @@
-# TODO: Make Logo Clickable
+# TODO: Make for-students.html Super Attractive and Enhance Navbar
 
-## Steps to Complete
+## Tasks
 
-- [x] Update logo in index.html to link to index.html
-- [x] Update logo in about.html to link to index.html
-- [x] Update logo in contact-us.html to link to index.html
-- [x] Update logo in study-abroad.html to link to index.html
-- [x] Update logo in for-students.html to link to index.html
-- [x] Update logo in for-institutes.html to link to index.html
-- [x] Update logo in for-government.html to link to index.html
-- [x] Test the logo links by clicking them in browser
+- [x] Enhance navbar: Make it sticky, add background gradient, improve hover effects in CSS.
+- [x] Update hero section: Add background image overlay in HTML.
+- [x] Add icons to services list: Insert relevant icons in 'What we offer' section in HTML.
+- [x] Add icons to grid cards: Add icons to visa/accommodation cards in HTML.
+- [x] Add new features section: Create a testimonials or highlights section with icons and hover effects in HTML.
+- [x] Add animations and styling: Implement fade-in animations, gradients, shadows in CSS.
+- [ ] Test page: Run local server and verify responsiveness, icons, and animations.
 
-# TODO: Copy Content from Website
+## Progress
 
-## Steps to Complete
-
-- [x] Fetch content from https://saharass.co.uk/study-abroad
-- [x] Update study-abroad.html with the copied content
-- [x] Add necessary CSS styles for new sections
-- [x] Improve attractiveness and responsiveness
-- [x] Test the updated page
+- Started: [Date/Time]
+- Completed: Navbar enhanced, hero updated, icons added, features section added, animations applied.
