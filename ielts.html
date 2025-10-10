@@ -3,8 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IELTS - Crimson Education</title>
+    <title>IELTS sections</title>
+    <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+  crossorigin="anonymous"
+/>
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Bootstrap 5 CSS CDN -->
+
   </head>
   <body>
     <!-- ================= HEADER ================= -->
@@ -32,6 +40,18 @@
               <li><a href="angelo-school.html">Anglo School</a></li>
             </ul>
           </li>
+          <li class="dropdown">
+            <a href="#university-programs">University Programs</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="preparation-courses.html">Preparation courses</a>
+              </li>
+              <li><a href="pathway-programme.html">Pathway programme</a></li>
+              <li><a href="under-graduate.html">Under graduate</a></li>
+              <li><a href="post-graduate.html">Post graduate</a></li>
+              <li><a href="phd-doctorate.html">PhD & Doctorate</a></li>
+            </ul>
+          </li>
           <li><a href="contact-us.html">Contact Us</a></li>
         </ul>
       </nav>
@@ -50,6 +70,18 @@
                 <li><a href="ielts.html">IELTS</a></li>
                 <li><a href="king-college.html">King College</a></li>
                 <li><a href="angelo-school.html">Anglo School</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#university-programs">University Programs</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="preparation-courses.html">Preparation courses</a>
+                </li>
+                <li><a href="pathway-programme.html">Pathway programme</a></li>
+                <li><a href="under-graduate.html">Under graduate</a></li>
+                <li><a href="post-graduate.html">Post graduate</a></li>
+                <li><a href="phd-doctorate.html">PhD & Doctorate</a></li>
               </ul>
             </li>
             <li><a href="contact-us.html">Contact Us</a></li>
@@ -105,65 +137,91 @@
       </div>
     </section>
 
-    <!-- ================= IELTS COURSES ================= -->
-    <section id="courses" class="why-crimson fade-in">
-      <div class="container">
-        <div class="right">
-          <h1>Our IELTS Courses</h1>
-          <p>Choose the course that fits your schedule and goals.</p>
+ <section id="courses" class="why-crimson fade-in py-5">
+  <div class="container">
+    <div class="row align-items-center gy-4">
+      <!-- Left Image -->
+      <div class="col-lg-6 order-lg-2 text-center">
+        <img
+          src="assets/images/download.webp"
+          alt="IELTS Preparation"
+          class="img-fluid rounded shadow"
+        />
+      </div>
 
-          <ul class="services-list">
-            <li>
-              <img
-                src="assets/images/icons/studay.png"
-                alt="Intensive Course Icon"
-                class="service-icon"
-              />
+      <!-- Right Text -->
+      <div class="col-lg-6 order-lg-1">
+        <h1 class="fw-bold mb-3">Our IELTS Courses</h1>
+        <p class="text-muted mb-4">
+          Choose the course that fits your schedule and goals.
+        </p>
+
+        <ul class="list-unstyled services-list mb-4">
+          <li class="d-flex align-items-start mb-3">
+            <img
+              src="assets/images/icons/studay.png"
+              alt="Intensive Course Icon"
+              class="service-icon me-3"
+              width="40"
+            />
+            <div>
               <strong>Intensive IELTS Course</strong> — Full-time preparation
               with daily classes and practice tests.
-            </li>
-            <li>
-              <img
-                src="assets/images/icons/advice.png"
-                alt="Weekend Course Icon"
-                class="service-icon"
-              />
+            </div>
+          </li>
+          <li class="d-flex align-items-start mb-3">
+            <img
+              src="assets/images/icons/advice.png"
+              alt="Weekend Course Icon"
+              class="service-icon me-3"
+              width="40"
+            />
+            <div>
               <strong>Weekend IELTS Course</strong> — Flexible weekend sessions
               for working professionals.
-            </li>
-            <li>
-              <img
-                src="assets/images/icons/VISA.png"
-                alt="One-on-One Icon"
-                class="service-icon"
-              />
+            </div>
+          </li>
+          <li class="d-flex align-items-start mb-3">
+            <img
+              src="assets/images/icons/VISA.png"
+              alt="One-on-One Icon"
+              class="service-icon me-3"
+              width="40"
+            />
+            <div>
               <strong>One-on-One Coaching</strong> — Personalized tutoring to
               address your specific needs.
-            </li>
-            <li>
-              <img
-                src="assets/images/icons/LANGUAGE.png"
-                alt="Online Course Icon"
-                class="service-icon"
-              />
+            </div>
+          </li>
+          <li class="d-flex align-items-start mb-3">
+            <img
+              src="assets/images/icons/LANGUAGE.png"
+              alt="Online Course Icon"
+              class="service-icon me-3"
+              width="40"
+            />
+            <div>
               <strong>Online IELTS Preparation</strong> — Study from anywhere
               with our interactive online platform.
-            </li>
-          </ul>
+            </div>
+          </li>
+        </ul>
 
-          <div class="who">
-            <h3>📚 For All Levels</h3>
-            <p>From beginners to advanced learners aiming for band 9.</p>
-          </div>
-
-          <a href="contact-us.html" class="btn apply-btn">Enroll Now</a>
+        <div class="who mb-4">
+          <h3>📚 For All Levels</h3>
+          <p class="text-muted">
+            From beginners to advanced learners aiming for band 9.
+          </p>
         </div>
 
-        <div class="left">
-          <img src="assets/images/download.webp" alt="IELTS Preparation" />
-        </div>
+        <a href="contact-us.html" class="btn btn-danger px-4 py-2 rounded-pill">
+          Enroll Now
+        </a>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
 
     <!-- ================= FEATURES ================= -->
     <section class="features-section fade-in">
@@ -200,7 +258,7 @@
           </div>
           <div class="feature">
             <img
-              src="assets/images/icons/advice.png"
+              src="assets/images/icons/studay.png"
               alt="Flexible Scheduling Icon"
               class="feature-icon"
             />
